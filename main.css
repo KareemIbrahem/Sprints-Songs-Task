@@ -1,0 +1,82 @@
+body {
+    
+    background-color: rgb(110, 15, 131);
+    padding-top: 5px;
+    font-family: "Archivo", sans-serif;
+    color: aliceblue;
+    
+}
+header 
+{
+text-align: center;
+
+
+}
+.showBtn{
+    
+    height: 50px;
+    font-size: 16px;
+    color: rgb(110, 15, 131);
+    padding: 15px;
+    margin: 20px;
+
+}
+body .container {
+
+    background-color: rgb(110, 15, 131);
+    text-align: center;   
+}
+
+p {
+    width: 500px;
+    margin: auto;
+    font-family: "Archivo", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px;
+
+}
+
+.listContainer {
+
+    width: 50%;
+    border-style: solid;
+    margin: auto;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: none;
+    font-family: "Archivo", sans-serif;
+    overflow: hidden;
+
+}
+
+.leftSec {
+
+    width: 50%;
+}
+
+.rightSec {
+
+    width: 50%;
+}
+
+.itemContainer {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 14px;
+    float: left;
+
+
+}
+.itemContainer span{
+    padding-left: 5px;
+}
+
+.numberContainer {
+    padding: 10px;
+    background-color: rgb(195, 33, 251);
+
+}
